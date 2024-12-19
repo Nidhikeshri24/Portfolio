@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+    
+</head>
+<body>
+    <!--header section-->
+    <header>
+        <div class="logo"><a href="#">portfo<span>lio.</span></a></div>
+        <ul class="menu">
+            <li>
+                <a href="#home">
+                    <button type="button">
+                        <span>Home</span>
+                        <span class="fa-solid fa-house"></span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="#about">
+                    <button type="button">
+                        <span>About</span>
+                        <span class="fa-solid fa-address-card"></span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="#skills">
+                    <button type="button">
+                        <span>Skills</span>
+                        <span class="fa-solid fa-sliders"></span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="#Projects">
+                    <button type="button">
+                        <span>Projects</span>
+                        <span class="fa-solid fa-mountain-sun"></span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="#contact">
+                    <button type="button">
+                        <span>Contact</span>
+                        <span class="fa-solid fa-headset"></span>
+                    </button>
+                </a>
+            </li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="featured-text">
+             <div class="hello">
+                <p>Hello I'm <span class="featured-para" >NIDHI KESHRI</span></p>
+             </div>
+             <div class="featured-name">
+                <span id="sliderValue"></span>
+                
+             </div>
+             <div class="featured-text-info">
+                <p>I am Nidhi, a 4th-year ECE student passionate about technology,problem-solving, and exploring innovative projects.</p>
+                <div class="button-container">
+                    <a href="My_Resume final new.pdf" target="_blank" class="btn-b">Download CV</a>
+                </div>
+             </div>
+             <div class="social_icons">
+                <a href="https://github.com/Nidhikeshri24"><i class="fab fa-github"style="color:crimson;"></i></a>
+                <a href="https://github.com/Nidhikeshri24"><i class="fab fa-twitter"style="color:crimson;"></i></a>
+                <a href="https://www.instagram.com/_nidhi__keshri_/?igsh=MTl3ZjFxbjZ2dTdiMw%3D%3D"><i class="fab fa-instagram"style="color:crimson;"></i></a>
+                <a href="https://www.linkedin.com/in/nidhi-keshri-557976260/"><i class="fab fa-linkedin"style="color:crimson;"></i></a>
+             </div>
+        </div>
+        <div class="home-img">
+            <img src="Desired_Frame.png" alt=""> 
+        </div>
+    </section>
+    
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <div class="about-container">
+                <div class="about-col-1">
+                    <img src="IMG_20220829_231019_899.jpg" alt="Your Name">
+                </div>
+                <div class="about">
+                    <h1 class="title_h1">About Me</h1>
+                    <p>Hello! I'm Nidhi, a 4th-year student with a strong passion for technology, particularly in Full Stack Development. While my academic background is in Electronics and Communication Engineering, my true interest lies in building innovative software solutions. I specialize in Python Flask for backend development, along with front-end technologies like HTML, CSS, JavaScript, and React, to create dynamic, user-friendly web applications.</p>
+                    <div id="more-info" style="display: none;">
+                        <p>Currently, I'm pursuing my B.Tech at B.P Poddar Institute of Management and Technology, Kolkata, with a CGPA of 8.64 (up to the 6th semester). Throughout my academic journey, I have developed a strong foundation in programming languages such as C, C++, Java, Python, and JavaScript, and gained experience working with databases and version control using Git.</p>
+
+                        <p>I am passionate about solving complex challenges and continuously improving my skills. I thrive in both collaborative and independent settings, always eager to learn new technologies and apply them to real-world projects. As I near the end of my academic journey, I am excited to take on new opportunities in the tech industry and contribute to impactful projects alongside like-minded professionals.</p>
+                                            </div>
+                    <button class="btn-b" id="read-more-btn">Read More</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">
+            <i class="bx bx-code-block"></i> Skills & <span>Abilities</span>
+        </h2>
+        <div class="container">
+            <div class="row" id="skillsContainer">
+                <!-- Skill items will be added here dynamically -->
+            </div>
+        </div>
+    </section>
+<!-- project Section code -->
+ <section class="Projects" id="Projects">
+<h2 class="heading">Projects</h2>
+<div class="project-content">
+    <div class="row">
+        <img src="Screenshot (3722).png" alt="">
+        <div class="main-row">
+            <div class="row-text">
+                <h5>Portfolio Website</h5>
+            </div>
+            <div class="row-icon">
+                <!-- Closing anchor tag properly -->
+                <a href="https://github.com/Nidhikeshri24/Movie-search-web" target="_blank">
+                    <i class="bx bxl-github"></i>
+                </a>  <!-- Close anchor here -->
+            </div>
+        </div>
+        <h1>HTML, CSS, JavaScript</h1>
+    </div>
+    
+    <div class="row">
+        <img src="Screenshot (3722).png" alt="" >
+        <div class="main-row">
+            <div class="row-text">
+                <h5>web design</h5>
+            </div>
+            <div class="row-icon">
+                <i class="bx bxl-github"></i>
+            </div>
+        </div>
+        <h4>website development</h4>
+    </div>
+    <div class="row">
+        <img src="Screenshot (3722).png" alt="" >
+        <div class="main-row">
+            <div class="row-text">
+                <h5>web design</h5>
+            </div>
+            <div class="row-icon">
+                <i class="bx bxl-github"></i>
+            </div>
+        </div>
+        <h4>website development</h4>
+    </div>
+    <div class="row">
+        <img src="Screenshot (3722).png" alt="" >
+        <div class="main-row">
+            <div class="row-text">
+                <h5>web design</h5>
+            </div>
+            <div class="row-icon">
+                <i class="bx bxl-github"></i>
+            </div>
+        </div>
+        <h4>website development</h4>
+    </div>
+    <div class="row">
+        <img src="Screenshot (3722).png" alt="" >
+        <div class="main-row">
+            <div class="row-text">
+                <h5>web design</h5>
+            </div>
+            <div class="row-icon">
+                <i class="bx bxl-github"></i>
+            </div>
+        </div>
+        <h4>website development</h4>
+    </div>
+    <div class="row">
+        <img src="Screenshot (3722).png" alt="" >
+        <div class="main-row">
+            <div class="row-text">
+                <h5>web design</h5>
+            </div>
+            <div class="row-icon">
+                <i class="bx bxl-github"></i>
+            </div>
+        </div>
+        <h4>website development</h4>
+    </div>
+</div>
+ </section>
+ <!-- Contact Section -->
+   <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Phone Number">
+            <input type="text" placeholder="subject">
+          </div>
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+          <input type="submit" value="Send Message" class="btn-t">
+    </form>
+  </section> 
+  <footer>
+    <div class="footer-content">
+        <div class="box">
+            <!-- <h3>Nidhi's Portfolio</h3> -->
+            <img src="Screenshot 2024-12-19 192244.png" alt="Nidhi's Picture" style="width: 150px; height: 100px; border-radius: 10%; " />
+            <p>
+                Thanks for checking out my portfolio! I'm always excited to connect and explore new opportunities.
+                <br /><br />
+                Let's connect and grow together! 🚀
+            </p>            
+            
+        </div>
+        <div class="footer-menu">
+            <h3>Quick Links</h3>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="box">
+            <h3>Contact Info</h3>
+            <p><i class="fas fa-phone"></i> +91 6206933805</p>
+            <p><i class="fas fa-envelope"></i> nidhikeshri787@gmail.com</p>
+            <p><i class="fas fa-map-marked-alt"></i> West Bengal, Kolkata-700052</p>
+            <div class="footer-social-icons">
+                <a href="https://github.com/Nidhikeshri24" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://github.com/Nidhikeshri24" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/_nidhi__keshri_/?igsh=MTl3ZjFxbjZ2dTdiMw%3D%3D" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/nidhi-keshri-557976260/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2024 Nidhi Keshri <i class="fa-solid fa-heart"></i> All Rights Reserved.</p>
+      
+    </div>
+</footer>
+
+  
+    <!-- JavaScript to dynamically add skills and "Read More" functionality -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
